@@ -1,0 +1,175 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+  25deg,
+  hsl(163deg 57% 63%) 0%,
+  hsl(149deg 45% 61%) 19%,
+  hsl(128deg 33% 60%) 32%,
+  hsl(100deg 30% 54%) 42%,
+  hsl(79deg 33% 46%) 52%,
+  hsl(62deg 41% 39%) 62%,
+  hsl(49deg 54% 36%) 71%,
+  hsl(40deg 64% 35%) 80%,
+  hsl(32deg 69% 34%) 90%,
+  hsl(23deg 69% 34%) 100%
+);
+
+}
+
+  .ventana, .modal{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .off{
+    display:none;
+  }
+  .on{
+    display:flex;
+  }
+
+  
+  h1{
+    text-align: center;
+    color:black;
+
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  button {
+    background-color: rgb(24, 90, 30);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la tabla */
+  
+  #tabla-recursos {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 20%;
+  }
+  
+  #tabla-recursos th, #tabla-recursos td {
+    border: 1px solid rgb(230, 134, 50);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #tabla-recursos th {
+    background-color: rgb(230, 134, 50);
+    font-weight: bold;
+  }
+  
+  #tabla-recursos td{
+    background-color: antiquewhite;
+  }
+  
+
+   
+  
+  /* Estilos para el formulario y la ventana modal */
+  
+  .modal {
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  
+    
+
+    background-image: linear-gradient(
+    25deg,
+    hsl(163deg 57% 63%) 0%,
+    hsl(149deg 45% 61%) 19%,
+    hsl(128deg 33% 60%) 32%,
+    hsl(100deg 30% 54%) 42%,
+    hsl(79deg 33% 46%) 52%,
+    hsl(62deg 41% 39%) 62%,
+    hsl(49deg 54% 36%) 71%,
+    hsl(40deg 64% 35%) 80%,
+    hsl(32deg 69% 34%) 90%,
+    hsl(23deg 69% 34%) 100%
+    );
+  }
+  
+  .modal-content {
+    background-color: rgb(171, 180, 185);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+
+
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #e02121;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  form label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8090ca;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: rgb(44, 75, 11);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  /* Estilos para el botón de inclusión de usuario */
+  
+  #btn-modal {
+    margin: 20px auto;
+    display: block;
+  }
+  
+  
+  
